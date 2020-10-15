@@ -1,0 +1,133 @@
+
+/* General */
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background: url("images/pattern.jpg");
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  img.rounded {
+    border-radius: 8px;
+  }
+  
+  main h2 {
+    font-size: 28px;
+    font-family: 'Montserrat Alternates', Arial;
+    font-weight: 400;
+  }
+  
+  main h3 {
+    font-size: 22px;
+    font-family: 'Montserrat Alternates', Arial;
+    font-weight: 400;
+  }
+  
+  main p {
+   font-family: 'Montserrat', Arial;
+   line-height: 1.5em;
+   margin-bottom: 0em;
+  }
+  
+  /* Header content */
+  
+  header {
+    background-color: gray;
+    margin-bottom: 40px;
+    display: block;
+  }
+  
+  header h1 {
+    color: aliceblue;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    font-family: 'Arial', cursive;
+    font-size: 56px;
+  }
+  
+  
+  /*  Main content */
+  
+  main  .wrapper  h2 {
+    padding-left: 10px;
+    margin-bottom: 0;
+  }
+  
+  main .intro {
+    font-size: 24px;
+    color: teal;
+  }
+  
+  /* Mobile groups & Items */
+  .wrapper {
+    width: 100%;
+  }
+  
+  .group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .item {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .item-double {
+    flex: 2;
+    margin: 10px;
+  }
+  
+  /* Desktop groups & Items */
+  
+  @media all and (min-width: 800px) {
+    .wrapper {
+      width: 100%;
+      margin: auto;
+    }
+  
+    .group {
+      flex-direction: row;
+    }
+  }
+  
+  /* Articles content */
+  
+  #home, #portfolio, #intro {
+    margin-bottom: 120px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* Aboit article section */
+  
+  #about, #contact {
+    background-color: lightcyan;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  footer {
+    color: aliceblue;
+    background-color: gray;
+    display: block;
+    text-align: center;
+  }
+  /* link properties */
+  
+  a:link {
+    color: blue;
+  }
+  
+  a:visited {
+    color: purple
+  }
+  
+  a:hover {
+    color: lightskyblue
+  }
