@@ -102,7 +102,14 @@
        
 				<div class='item'>
 					<p>Content Form Here</p>
-          <!-- add email form link here -->
+       		  <form action="process-form.js" method="post">
+  			<label for="user-name">First name:</label>
+  			<input id="user-name" type="text" name="name">
+			<label for="form-message">Your message:</label>
+    			<textarea id="form-message" name="message"></textarea>
+			<button type="submit">Submit</button>
+  			<button type="reset">Reset</button>
+		  </form>
 				</div>
 				<div class='item'>
 					<p><a href="tel:214-799-5944">Phone</a></p>
