@@ -79,7 +79,7 @@ body {
   }
 
 .item-contact {
-    flex: 0.5;
+    flex: 0.75;
     margin: 10px;
   }
   
@@ -142,8 +142,4 @@ body {
 iframe{
     width: 350px;
 }
-}
-
-.form {
-  
 }
