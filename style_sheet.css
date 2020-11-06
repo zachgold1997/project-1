@@ -76,7 +76,7 @@ body {
   .item {
     flex: 1;
     margin: 10px;
-      width: 50%;
+      width: 45%;
   }
   
   .item-double {
@@ -140,5 +140,5 @@ iframe{
 }
 
 .form {
-    width: 60%;
+  
 }
