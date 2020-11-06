@@ -76,8 +76,13 @@ body {
   .item {
     flex: 1;
     margin: 10px;
-      width: 40%;
   }
+
+.item-contact {
+    flex: 0.5;
+    margin: 10px;
+  }
+  
   
   .item-double {
     flex: 2;
