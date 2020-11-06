@@ -76,7 +76,7 @@ body {
   .item {
     flex: 1;
     margin: 10px;
-      width: 55%;
+      width: 50%;
   }
   
   .item-double {
